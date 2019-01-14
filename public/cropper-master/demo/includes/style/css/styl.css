@@ -1,0 +1,20 @@
+.fh5co-hero {
+  position: relative;
+  height: 800px;
+}
+
+.fh5co-cover.fh5co-hero-2 .fh5co-overlay,
+.fh5co-hero.fh5co-hero-2 .fh5co-overlay {
+  position: absolute !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.7);
+}
+.fh5co-cover {
+  background-size: cover;
+  position: relative;
+}
